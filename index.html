@@ -8,8 +8,49 @@
 
 
     <body>
-        <h1>test</h1>
+        <h1>Club Basket</h1>
+        <img class="ballon" src="ballon-de-basket.png">
 
+        <h2></h2>Inscription au formulaire</h2>
+        <br>
+        <a href="formulaire.html">Formulaire</a>
+
+        <div id="myElement">
+            <h2 class="pourjs">Toi aussi tu peux le faire !</h2>
+        </div>
+
+        <h1 class="position">Donne nous un avis du site</h1>
+        <form class="form">
+            <label for="avis">Avis</label><br>
+            <input type="text" id="avis" name="avis"></input><br>
+            <input type="submit" value="ok">
+        </form>
+     
+        <script>
+    
+            /*var element = document.getElementById("myElement");
+            element.style.color = "red";*/
+  
+            document.getElementById("myElement").style.color = "blue";
+       
+       
+        </script>
     </body>
+
+    <style>
+
+        body{
+            background-color: aquamarine;
+        }
+        .ballon{
+            width: 80px;
+        }
+
+        .pourjs{
+            text-align: center;
+        }
+        
+
+    </style>
 
 </html>
